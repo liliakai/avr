@@ -26,21 +26,17 @@
 #  2. Below, modify the line containing "TARGET" to refer to the name of
 #     of your program's file without an extension (e.g. TARGET = foo).
 #
-#  3. Modify the line containg "ARDUINO" to point the directory that
-#     contains the Arduino core (for normal Arduino installations, this
-#     is the lib/targets/arduino sub-directory).
-#
-#  4. Modify the line containing "PORT" to refer to the filename
+#  3. Modify the line containing "PORT" to refer to the filename
 #     representing the USB or serial connection to your Arduino board
 #     (e.g. PORT = /dev/tty.USB0).  If the exact name of this file
 #     changes, you can use * as a wildcard (e.g. PORT = /dev/tty.USB*).
 #
-#  5. At the command line, change to the directory containing your
+#  6. At the command line, change to the directory containing your
 #     program's file and the makefile.
 #
-#  6. Type "make" and press enter to compile/verify your program.
+#  7. Type "make" and press enter to compile/verify your program.
 #
-#  7. Type "make upload", reset your Arduino board, and press enter  to
+#  8. Type "make upload", reset your Arduino board, and press enter  to
 #     upload your program to the Arduino board.
 #
 # $Id$
