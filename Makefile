@@ -47,7 +47,7 @@
 
 PORT = /dev/tty.usbserial*
 TARGET = foo
-ARDUINO = /Applications/arduino-0005/lib/targets/arduino
+ARDUINO = /lib/arduino
 SRC = $(ARDUINO)/buffer.c $(ARDUINO)/pins_arduino.c \
   $(ARDUINO)/Serial.c $(ARDUINO)/uart.c $(ARDUINO)/wiring.c
 CXXSRC = $(TARGET).cpp $(ARDUINO)/HardwareSerial.cpp $(ARDUINO)/WRandom.cpp
