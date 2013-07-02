@@ -1,0 +1,4 @@
+http://playground.arduino.cc/Learning/CommandLine
+
+       sudo apt-get install gcc-avr avr-libc avrdude 
+
